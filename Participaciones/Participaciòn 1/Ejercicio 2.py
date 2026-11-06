@@ -1,8 +1,11 @@
 # la velocidad de un automovil tiene que ser menos de 90km/h
 
-vl_adecuada = "true"
-vl_inadecuada = "false"
 
-velocidad = int(input("Ingrese la velocidad del auto: ")) 
+velocidad = "velocidad indefinida"
+velocidad_requerida = "menor o igual a 90 km"
 
-print(la "vl_adecuada"  velocidad <= 90 o la "vl_inadecuada")
+velocidad = int(input("ingrese velocidad: "))
+velocidad_requerida = int(input("ingrese velocidad_requerida: "))
+#menor_o_igual_que -> <=
+menor_o_igual_que = velocidad <= velocidad_requerida
+print (f"¿es {velocidad} menor o igual que {velocidad_requerida}? {menor_o_igual_que}")
